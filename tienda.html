@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes webstore</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="./assets/logo1.png" alt="Logotipo shoes store" class="header__logo">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--active" href="./tienda.html">Tienda</a>
+        <a class="navegacion__enlace" href="./nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+        <h2 class="propiedades-texto">Producto uno</h2>
+        <div class="zapatilla">
+            <img class="zapatilla__img" src="./assets/1.jpg" alt="imagen de la zapatilla modelo uno">
+            <div class="zapatilla__contenido">
+                <p>Nam dapibus, justo nec porttitor fringilla, lectus odio molestie dolor, a tempor mi ex eu nisl. Sed porttitor ornare massa vitae finibus. In at mattis velit. Ut faucibus porta libero, ut porta ligula ultricies accumsan. Morbi convallis, leo in laoreet laoreet, nisl nibh ultrices ex, vitae porta sapien tellus vitae massa. Pellentesque mollis eleifend sapien.</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>Seleccionar talle</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" max="20">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Sneakers Shop - Sitio elaborado en 2024.</p>
+    </footer>
+</body>
+</html>
